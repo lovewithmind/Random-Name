@@ -1,10 +1,10 @@
 function setAndAnimate(body) {
-    let p1 = document.getElementById("p1");
-    p1.innerHTML = "";
+    let animatedName = document.getElementById("animated-name");
+    animatedName.innerHTML = "";
     let odometer = $('.title-number-section .odometer');
 
     odometer.removeClass('odometer-animating-up odometer-animating');
-    generateHtml(body, htmlCode => p1.innerHTML += htmlCode);
+    generateHtml(body, htmlCode => animatedName.innerHTML += htmlCode);
     setTimeout(() => odometer.addClass('odometer-animating-up odometer-animating'), 50);
 }
 
