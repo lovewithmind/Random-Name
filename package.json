@@ -1,0 +1,15 @@
+{
+  "name": "Random-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "8.7.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
